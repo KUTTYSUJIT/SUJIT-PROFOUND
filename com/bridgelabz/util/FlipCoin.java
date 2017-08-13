@@ -14,11 +14,23 @@ package com.bridgelabz.util;
 public class FlipCoin
 { 
   	public  static void main(String[] args)
-	{
+	{	
+		int number=Integer.parseInt(args[0]);
+		int trials=0,heads=0,tails=0;		
+		for(int i=1;i<=number;i++)
+		{ 
+		trials++;
 		if(Math.random()<0.5)			//using Math.random() function for checking heads
-			System.out.println("Head");
+		{ heads++;
+		System.out.println("Head");
+		}
 		else
 			System.out.println("tail");
+		}
+		double Percentage=(heads*100)/trials;
+
+		System.out.println("The no of heads="+heads+"\nThe percentage is "+Percentage);		
+
 	}
 }
 	
