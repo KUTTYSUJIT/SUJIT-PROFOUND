@@ -1,6 +1,6 @@
 /******************************************************************************
- *  Compilation:  javac -d bin com/bridgelabz/util/Stats5.java
- *  Execution:    java -cp bin com.bridgelabz.util.Stats5
+ *  Compilation:  javac -d bin com/bridgelabz/util/PrintThreeNames.java
+ *  Execution:    java -cp bin com.bridgelabz.util.PrintThreeNames
  *  
  *  Purpose: Accepting strings from command line argument and displaying it in reverse order .
  *
